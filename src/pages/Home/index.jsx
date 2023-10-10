@@ -11,6 +11,7 @@ from './styles'
 import Header from '../../components/Header'
 import BannerJpg from '../../assets/img/bannergestilt.jpg'
 import ArticleSlider from '../../components/ArticleSlider'
+import Footer from '../../components/Footer'
 
 const Home = () => {
   return (
@@ -27,18 +28,20 @@ const Home = () => {
                 para aumentar a eficiência e impulsionar o 
                 sucesso dos projetos. </h1>
 
-                <a href=""><button>Cadastre-se</button></a>
+                <a href="/cadastro"><button>Cadastre-se</button></a>
 
         </div>
 
         <SectionService>
         <h2>O que você pode fazer com Gestilt</h2>
         <ArticleSlider />
+  
+        <Footer />
 
         </SectionService>
         </ContentBanner>
-    
-      
+
+
     </ContainerHome>
   
   )

@@ -3,32 +3,17 @@ import styled from "styled-components"
 
 export const ContainerHeader = styled.header`
 
-position: fixed;
-  backdrop-filter: blur(10px);
   width: 100vw;
   height: 7rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  transition: background-color 1.3s ease;
   z-index: 1000;
-
-  &.scrolled {
-    background-color: #fff;
-    transform: scale(1.02);
+  border-bottom: 5px solid black;
 
 
-    img {
-      transform: scale(1.09);
-    }
 
-    nav li {
-      transform: scale(1.09);
-    
-     
 
-    }
-  }
 
 .logo-header {
     img {

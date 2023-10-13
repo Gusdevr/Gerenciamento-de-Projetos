@@ -26,7 +26,7 @@ const Home = () => {
             <h1>O Gestilt é uma plataforma de gerenciamento 
                 de projetos inovadora e intuitiva, desenvolvida 
                 para aumentar a eficiência e impulsionar o 
-                sucesso dos projetos. </h1>
+                sucesso dos seus projetos. </h1>
 
                 <a href="/cadastro"><button>Cadastre-se</button></a>
 

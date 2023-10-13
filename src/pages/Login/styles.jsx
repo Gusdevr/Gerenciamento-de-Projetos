@@ -19,7 +19,7 @@ export const ContentLogin = styled.div`
     height: 40px;
     margin-top: 10px;
     margin-bottom: 18px;
-    outline-color: red;
+    outline-color: #c71912;
     border-radius: 5px;
     font-size: 16px;
     padding-left: 10px;
@@ -40,12 +40,18 @@ export const ContentLogin = styled.div`
         height: 40px;
         cursor: pointer;
         border: none;
-        background-color: red;
+        background-color: #c71912;
         color: #fff;
         font-weight: 700;
         font-size: 18px;
         border-radius: 5px;
     }
+  }
+
+  @media screen and (max-width: 768px){
+    display: flex;
+    flex-direction: column;
+    
   }
 
 `

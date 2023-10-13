@@ -2,6 +2,12 @@ import styled from "styled-components"
 
 export const ContainerHome = styled.div`
     display: flex;
+
+    @media screen and (max-width: 768px){
+        display: flex;
+        flex-direction: column;
+        
+    }
   
 `
 
@@ -40,7 +46,7 @@ export const ContentBanner = styled.div`
 
 }
 
-    
+  
 `
 
 export const SectionService =  styled.div`
@@ -52,3 +58,4 @@ h2 {
     font-size: 32px;
 }
 `
+

@@ -42,7 +42,7 @@ const Header = () => {
 
     <nav>
         <ul>
-            <a href="#"><li>Funcionalidades</li></a>
+            <a href="/painel"><li>Painel</li></a>
             <a href="#"><li>Soluções</li></a> 
             <a href="#"><li>Recursos</li></a>
             <a href="/login"><li>Entrar</li></a>

@@ -44,36 +44,7 @@ export const ContentIcons = styled.div`
   }
 
 
-  .btn-create-project {
-    button {
-        width: 110px;
-        height: 35px;
-        border-radius: 5px;
-        border: none;
-        background-color: #0a0a0a;
-        color: #fff;
-        font-size: 15px;
-        font-weight: 700;
-        cursor: pointer;
-
-        :hover {
-            background-color: red;
-        }
-    }
-
-    .modal {
-      width: 400px;
-      height: 100px;
-      margin-top: 200px;
-
-    }
-
-    .modal-content {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-  }
+  
 
 
     

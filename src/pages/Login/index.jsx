@@ -1,32 +1,30 @@
-import React from 'react'
-import HeaderLogin from '../../components/HeaderLogin'
-import Footer from '../../components/Footer'
+import React from "react";
+import HeaderLogin from "../../components/HeaderLogin";
+import Footer from "../../components/Footer";
 
-import { ContentLogin } from './styles'
+import { ContentLogin } from "./styles";
 
 const Login = () => {
   return (
     <ContentLogin>
-        <HeaderLogin />
+      <HeaderLogin />
 
-        <div className='form-login'>
-
+      <div className="form-login">
         <form>
-           <h1>gestilt login</h1>
-           <label htmlFor="email">E-mail</label>
-           <input type="email" name="email" />
+          <h1>gestilt login</h1>
+          <label htmlFor="email">E-mail</label>
+          <input type="email" name="email" />
 
-           <label htmlFor="password">Senha</label>
-           <input type="password" name="Senha"/>
+          <label htmlFor="password">Senha</label>
+          <input type="password" name="Senha" />
 
-           <button>Entrar</button>
-
+          <button>Entrar</button>
         </form>
-        </div>
+      </div>
 
-    <Footer />
+      <Footer />
     </ContentLogin>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;

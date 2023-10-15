@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const ContentLogin = styled.div`
+
   
   .form-login {
     display: flex;

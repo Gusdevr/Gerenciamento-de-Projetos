@@ -38,12 +38,12 @@ const Tarefas = () => {
 
   const createTask = async () => {
     try {
-      const dataFormatada = format(selectedDate, "yyyy-MM-dd"); // Formate a data para 'YYYY-MM-DD'
+      const dataFormatada = format(selectedDate, "yyyy-MM-dd"); 
       const tarefaResponse = await axios.post("http://localhost:4000/tarefa", {
         projeto_id: projetoId,
         titulo: titulo,
         descricao: descricao,
-        data_conclusao: dataFormatada, // Envie a data formatada para o backend
+        data_conclusao: dataFormatada, 
         concluida: concluida,
       });
 
@@ -86,7 +86,7 @@ const Tarefas = () => {
     try {
       await axios.delete(`http://localhost:4000/tarefa/${tarefaId}`);
       alert("Tarefa excluída com sucesso!");
-      fetchData(); // Recarregar a lista de tarefas após excluir
+      fetchData(); 
     } catch (error) {
       console.error("Erro ao deletar a tarefa:", error);
     }

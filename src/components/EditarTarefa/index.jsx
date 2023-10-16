@@ -22,7 +22,7 @@ const EditarTarefa = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const tarefaId = formData.projeto_id; // Use o projeto_id do formulário como ID da tarefa
+    const tarefaId = formData.projeto_id; 
     try {
       await axios.put(`http://localhost:4000/tarefa/${tarefaId}`, formData);
       console.log('Tarefa editada com sucesso!');

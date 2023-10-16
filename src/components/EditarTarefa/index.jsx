@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { ContentEdit } from './styles';
+
 
 const EditarTarefa = () => {
   const [formData, setFormData] = useState({
@@ -31,6 +33,8 @@ const EditarTarefa = () => {
   };
 
   return (
+
+    <ContentEdit>
     <div>
       <h2>Editar Tarefa</h2>
       <form onSubmit={handleSubmit}>
@@ -87,6 +91,7 @@ const EditarTarefa = () => {
         <button type="submit">Salvar Alterações</button>
       </form>
     </div>
+    </ContentEdit>
   );
 };
 

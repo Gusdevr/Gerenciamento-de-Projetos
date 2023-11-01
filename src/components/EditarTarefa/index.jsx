@@ -39,7 +39,7 @@ const EditarTarefa = () => {
       <h2>Editar Tarefa</h2>
       <form onSubmit={handleSubmit}>
         <label>
-          Projeto ID:
+          Tarefa ID:
           <input
             type="number"
             name="projeto_id"

@@ -6,6 +6,7 @@ import Panel from "./src/pages/Panel"
 import UpdateTarefa from "./src/pages/UpdateTarefa"
 import PainelProjetos from "./src/pages/PainelProjetos"
 
+
 function Router() {
     return (
         <BrowserRouter>
@@ -16,6 +17,7 @@ function Router() {
                 <Route path='/painel' element={<Panel />} />
                 <Route path='/editar' element={<UpdateTarefa />} />
                 <Route path='/painelprojetos' element={<PainelProjetos />} />
+           
 
     
             </Routes>

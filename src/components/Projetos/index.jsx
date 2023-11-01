@@ -4,7 +4,7 @@ import "react-datetime/css/react-datetime.css";
 import axios from "axios";
 import { format } from "date-fns";
 import { ContainerProjetos } from "./styles";
-import Tarefas from "../Tarefas";
+// import Tarefas from "../Tarefas";
 
 const Projetos = () => {
   const [showModal, setShowModal] = useState(false);
@@ -85,7 +85,7 @@ const Projetos = () => {
 
       fetchData();
 
-      alert("Prtojeto salvo com sucesso!");
+      alert("Projeto salvo com sucesso!");
       handleCloseModal();
     } catch (error) {
       console.error("Erro ao salvar o projeto:", error);
@@ -130,6 +130,7 @@ const Projetos = () => {
     <ContainerProjetos>
       <div className="btn-create-project">
         <button onClick={handleOpenModal}>Criar Projeto</button>
+        <a href="/painelprojetos">Meus Projetos</a>
         {showModal && (
           <div className="modal">
             <div className="modal-content">
@@ -175,7 +176,7 @@ const Projetos = () => {
         )}
       </div>
 
-      <div className="title-project">
+      {/* <div className="title-project">
         <div>
           <h2>Projetos</h2>
         </div>
@@ -196,7 +197,7 @@ const Projetos = () => {
           ))}
         </ul>
       </div>
-      {showTarefas && <Tarefas />}
+      {showTarefas && <Tarefas />} */}
     </ContainerProjetos>
   );
 };

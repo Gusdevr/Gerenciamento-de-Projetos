@@ -3,7 +3,7 @@ import React from "react";
 import { ContainerHome, ContentBanner, SectionService } from "./styles";
 
 import Header from "../../components/Header";
-import BannerJpg from "../../assets/img/bannergestilt.jpg";
+import BannerJpg from "../../assets/img/wallprojects.png";
 import ArticleSlider from "../../components/ArticleSlider";
 import Footer from "../../components/Footer";
 
